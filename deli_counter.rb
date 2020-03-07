@@ -34,5 +34,5 @@ end
 #if line is empty then puts 'there is nobody waiting to be served!'
 #if line, then call out member, and remove from front of line.
 
-def now_serving
+def now_serving(katz_deli)
 end
