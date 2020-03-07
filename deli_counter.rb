@@ -25,3 +25,14 @@ def take_a_number(katz_deli,new_person)
   puts "Welcome, #{new_person}. You are number #{katz_deli.length} in line."
 
 end
+
+
+# input = input people in line and line length
+# output = call out next person in line and remove them from front of line, if no one in line call out "there is no one in line."
+# action = remove person from front of array.
+
+#if line is empty then puts 'there is nobody waiting to be served!'
+#if line, then call out member, and remove from front of line.
+
+def now_serving
+end
