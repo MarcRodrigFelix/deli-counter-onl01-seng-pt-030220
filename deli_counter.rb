@@ -35,20 +35,20 @@ end
 #if line, then call out member, and remove from front of line.
 
 def now_serving(katz_deli)
-
-  unless katz_deli.length == 0
-    puts "Currently serving #{katz_deli[0]}."
-    katz_deli.shift
-  else
-    puts "There is nobody waiting to be served!"
-  end
-  
-
-  # if katz_deli.length == 0
-  #   puts "There is nobody waiting to be served!"
-  # else
+  # THIS ALSO WORKS
+  # unless katz_deli.length == 0
   #   puts "Currently serving #{katz_deli[0]}."
   #   katz_deli.shift
+  # else
+  #   puts "There is nobody waiting to be served!"
   # end
+
+
+  if katz_deli.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{katz_deli[0]}."
+    katz_deli.shift
+  end
 
 end
